@@ -149,7 +149,7 @@ channel.bind('event-name', function (data) {
 });
 
 async function pushData(data) {
-  const res = await fetch('/api/channels-event', {
+  const res = await fetch('../../api/channels-event', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
