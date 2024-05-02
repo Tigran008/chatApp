@@ -5,5 +5,8 @@
       "KEY": "7bb00c5ffa56633e55c9",
       "SECRET": "@channels-app-secret",
       "CLUSTER": "us2"
-    }
+    },
+    "rewrites": [
+        {"source": "/(.*)", "destination": "/"}
+    ]
   }
